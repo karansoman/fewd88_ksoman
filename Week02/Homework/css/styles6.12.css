@@ -1,0 +1,21 @@
+body{
+	background-image: url(Smooth.png);
+	background-size: cover;
+	font-family: "Tungsten A","Tungsten B",Impact,sans-serif;
+
+}
+
+h2{text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Tungsten A","Tungsten B",Impact,sans-serif;
+	font-weight: 100;
+	text-transform: none;
+	color: black;
+}
+ul{
+	text-align: center;
+	box-shadow: 
+}
