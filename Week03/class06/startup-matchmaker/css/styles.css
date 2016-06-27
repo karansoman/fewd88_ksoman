@@ -14,3 +14,76 @@ li{
 	
 	}
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 55px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+  background-color: #f0efef;
+}
+
+header {
+  display: inline;
+  overflow: hidden;
+  background-color: #033048;
+}
+header h1{
+  float: left;
+  font-size: 40px;
+  font-weight:bolder;
+  color:white;
+}
+header nav{
+  float: right;
+  font-size: 24px;
+  font-weight:bold;
+  color:#f9e42e;
+}
+
+main{
+  background-color: #
+}
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
