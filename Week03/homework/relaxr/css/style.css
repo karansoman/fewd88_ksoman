@@ -1,27 +1,23 @@
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Clear fix hack */
 .clearfix:after {
-  content: ".";
-  display: block;
+  content: none;
+  display: inline-block;
   clear: both;
   visibility: hidden;
   line-height: 0;
   height: 0;
+
 }
 
 .clear {
   clear: both;
 }
 
-.alignright {
+aside .alignright {
   float: right;
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
-.alignleft {
+article .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
@@ -35,24 +31,54 @@ body {
   font-size: 55px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
 /* Center the container */
 #container {
   width: 960px;
   margin: auto;
+  background-color: #f0efef;
 }
 
 header {
-
+  overflow: hidden;
+  background-color: #033048;
+  height: 80px;
+}
+header h1{
+  float: left;
+  font-size: 40px;
+  font-weight:800;
+  color:white;
+  padding-left: 10%;
+  padding-top: 8px;
+}
+header nav{
+  float: right;
+  padding-right: 10%;
+  padding-top: -1px;
+  font-weight: 600;
 }
 
+nav a {
+  padding-right: 15px;
+  text-decoration: none;
+  font-size: 24px;
+  color:#f9e42e;
+}
+
+main{
+  width: 700px;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+aside{
+  width: 240px;
+}
 footer {
+  text-align: center;
+  background-color: #
 
 }
 
