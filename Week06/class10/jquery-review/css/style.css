@@ -1,0 +1,18 @@
+.box{
+	margin: 0 auto;
+	margin-top:200px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+#one{
+	height: 200px;
+	border:dashed;
+	margin-bottom: 20px;
+}
+
+#two{
+	height: 200px;
+	border:dashed;
+}
