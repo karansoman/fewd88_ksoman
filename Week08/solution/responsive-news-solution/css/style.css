@@ -107,20 +107,20 @@ p {
 @media (max-width: 480px) {
 	#container {
 		width: 100%;
+	}
 
-	}
 	#articles, #side-column {
-		width: 100%;
 		float: none;
+		width: 100%;
 	}
-	h1, h2, h3{
+
+	.main-article {
+		float: none;
+		width: 100%;
+	}
+
+	h1, h2, h3 {
 		text-align: center;
 	}
-	.main-article{
-		float: none;
-		width: 100%;
-	}	
-
-	}
-
+}
 
