@@ -1,5 +1,5 @@
 .container {
-	width: 100%;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -32,34 +32,15 @@ section {
 
 article {
 	background-color: white;
-	display: inline-block;
-	width: 45%;
-	padding: 10px;
-	box-sizing: border-box;
 }
 
 /* targets the 1st article; nth-child(2) would target the 2nd article*/
 article:nth-child(1) {
 	margin-right: 10px;
-	
 }
 
 article h1 {
 	font-size: 20px;
 	text-align: center;
 	padding: 5px 0;
-}
-
-@media (max-width: 1024px){
-	article{
-		width: 100%;
-		display: block;
-
-	}
-	}
-
-
-
-
-
 }
